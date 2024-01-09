@@ -27,6 +27,7 @@
 /* Begin PBXFileReference section */
 		03362F162B4CD9A4003F14F3 /* ScreenLockWatcher */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ScreenLockWatcher; sourceTree = BUILT_PRODUCTS_DIR; };
 		03362F272B4CE42B003F14F3 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		03362F292B4CF3AD003F14F3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 		03362F0D2B4CD9A4003F14F3 = {
 			isa = PBXGroup;
 			children = (
+				03362F292B4CF3AD003F14F3 /* README.md */,
 				03362F182B4CD9A4003F14F3 /* ScreenLockWatcher */,
 				03362F172B4CD9A4003F14F3 /* Products */,
 			);
