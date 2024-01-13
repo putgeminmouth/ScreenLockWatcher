@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03362F222B4CDA2F003F14F3 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 03362F212B4CDA2F003F14F3 /* ArgumentParser */; };
 		03362F242B4CDA2F003F14F3 /* generate-manual in Frameworks */ = {isa = PBXBuildFile; productRef = 03362F232B4CDA2F003F14F3 /* generate-manual */; };
 		03362F282B4CE42B003F14F3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03362F272B4CE42B003F14F3 /* main.swift */; };
+		03DBDA862B50D16700CAA222 /* generate-manual in Frameworks */ = {isa = PBXBuildFile; productRef = 03DBDA852B50D16700CAA222 /* generate-manual */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03362F222B4CDA2F003F14F3 /* ArgumentParser in Frameworks */,
+				03DBDA862B50D16700CAA222 /* generate-manual in Frameworks */,
 				03362F242B4CDA2F003F14F3 /* generate-manual in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,6 +49,7 @@
 				03362F292B4CF3AD003F14F3 /* README.md */,
 				03362F182B4CD9A4003F14F3 /* ScreenLockWatcher */,
 				03362F172B4CD9A4003F14F3 /* Products */,
+				03DBDA872B50D17000CAA222 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +69,13 @@
 			path = ScreenLockWatcher;
 			sourceTree = "<group>";
 		};
+		03DBDA872B50D17000CAA222 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,8 +93,8 @@
 			);
 			name = ScreenLockWatcher;
 			packageProductDependencies = (
-				03362F212B4CDA2F003F14F3 /* ArgumentParser */,
 				03362F232B4CDA2F003F14F3 /* generate-manual */,
+				03DBDA852B50D16700CAA222 /* generate-manual */,
 			);
 			productName = ScreenLockWatcher;
 			productReference = 03362F162B4CD9A4003F14F3 /* ScreenLockWatcher */;
@@ -262,6 +270,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -271,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -311,12 +321,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		03362F212B4CDA2F003F14F3 /* ArgumentParser */ = {
+		03362F232B4CDA2F003F14F3 /* generate-manual */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 03362F202B4CDA2F003F14F3 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
-			productName = ArgumentParser;
+			productName = "generate-manual";
 		};
-		03362F232B4CDA2F003F14F3 /* generate-manual */ = {
+		03DBDA852B50D16700CAA222 /* generate-manual */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 03362F202B4CDA2F003F14F3 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
 			productName = "generate-manual";
