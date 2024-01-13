@@ -1,5 +1,7 @@
 # ScreenLockWatcher
-MacOS: Detect and run a file when the screen is un/locked.
+MacOS: run a file when the screen is un/locked.
+
+This app listens/watches for notifications from the OS when the screen is locked or unlocked, at which point it will run the specified file.
 
 ## Usage
 ```
